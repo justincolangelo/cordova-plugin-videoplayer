@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-video-player",
   "version": "1.0.1",
-  "description": "A Codova plugin that simply allows you to immediately play a video in fullscreen mode.",
+  "description": "A Cordova plugin that simply allows you to immediately play a video in fullscreen mode.",
   "cordova": {
     "id": "cordova-plugin-video-player",
     "platforms": [
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moust/cordova-plugin-videoplayer.git"
+    "url": "git+https://github.com/justincolangelo/cordova-plugin-videoplayer.git"
   },
   "keywords": [
     "ecosystem:cordova",
