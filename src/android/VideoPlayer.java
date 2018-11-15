@@ -24,6 +24,7 @@ import android.view.WindowManager.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.VideoView;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
@@ -133,6 +134,7 @@ public class VideoPlayer extends CordovaPlugin implements OnCompletionListener, 
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(true);
         dialog.setOnDismissListener(this);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
 
         // Main container layout
         LinearLayout main = new LinearLayout(cordova.getActivity());
