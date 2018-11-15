@@ -135,6 +135,7 @@ public class VideoPlayer extends CordovaPlugin implements OnCompletionListener, 
 
         // Main container layout
         LinearLayout main = new LinearLayout(cordova.getActivity());
+        main.setBackgroundColor(Color.BLACK);
         main.setLayoutParams(new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
         main.setOrientation(LinearLayout.VERTICAL);
         main.setHorizontalGravity(Gravity.CENTER_HORIZONTAL);
@@ -317,7 +318,7 @@ public class VideoPlayer extends CordovaPlugin implements OnCompletionListener, 
                 lp.width = screenHeight * videoWidth / videoHeight;
                 lp.height = screenHeight;
             }
-	        
+
 	        dialog.getWindow().setAttributes(lp);
         }
     }
