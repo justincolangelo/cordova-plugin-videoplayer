@@ -23,6 +23,7 @@ import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.VideoView;
+import android.graphics.Color;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
